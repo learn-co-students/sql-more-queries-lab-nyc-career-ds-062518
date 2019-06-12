@@ -20,4 +20,4 @@ def select_name_and_breed_of_dogs_between_age_five_and_ten_ordered_by_oldest_to_
     return "SELECT name, breed FROM dogs WHERE age BETWEEN 5 AND 10 ORDER BY age DESC"
 
 def select_name_age_and_hungry_of_hungry_dogs_between_age_two_and_seven_in_alphabetical_order():
-    return "SELECT name, age, hungry FROM dogs WHERE hungry = 1 AND age BETWEEN 2 AND 7 ORDER BY name ASC"
+    return "SELECT name, age, hungry FROM dogs WHERE age BETWEEN 2 AND 7 ORDER BY name ASC"
